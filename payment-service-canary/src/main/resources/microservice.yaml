@@ -1,4 +1,4 @@
-APPLICATION_ID: scaffold
+APPLICATION_ID: crm
 service_description:
   name: payment-service
   version: 0.0.2

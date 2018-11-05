@@ -3,8 +3,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.apache.servicecomb.scaffold</groupId>
-  <artifactId>scaffold</artifactId>
+  <groupId>org.apache.servicecomb.crm</groupId>
+  <artifactId>crm</artifactId>
   <version>0.0.9-SNAPSHOT</version>
   <packaging>pom</packaging>
 
@@ -37,7 +37,7 @@
       </dependency>
 
       <dependency>
-        <groupId>org.apache.servicecomb.scaffold</groupId>
+        <groupId>org.apache.servicecomb.crm</groupId>
         <artifactId>common</artifactId>
         <version>0.0.9-SNAPSHOT</version>
       </dependency>
@@ -68,6 +68,13 @@
         <artifactId>spring-boot-starter-data-jpa</artifactId>
         <version>${spring-boot.version}</version>
       </dependency>
+
+      <dependency>
+        <groupId>org.hibernate.validator</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>6.0.13.Final</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
 

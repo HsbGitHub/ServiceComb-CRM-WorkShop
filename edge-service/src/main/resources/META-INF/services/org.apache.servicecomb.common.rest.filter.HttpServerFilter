@@ -1,2 +1,2 @@
-org.apache.servicecomb.scaffold.edge.filter.AuthenticationFilter
-org.apache.servicecomb.scaffold.edge.filter.LogFilter
+org.apache.servicecomb.crm.edge.filter.AuthenticationFilter
+org.apache.servicecomb.crm.edge.filter.LogFilter

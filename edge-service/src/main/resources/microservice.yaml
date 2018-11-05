@@ -1,4 +1,4 @@
-APPLICATION_ID: scaffold
+APPLICATION_ID: crm
 service_description:
   name: edge-service
   version: 0.0.1
@@ -27,7 +27,7 @@ apollo:
     #请修改为您的Apollo地址
     serverUri: http://192.168.99.100:8070
     #请修改为您的Apollo AppId
-    serviceName: scaffold  #AppId in apollo
+    serviceName: crm  #AppId in apollo
     env: DEV
     #default clusters name in apollo,if user create new clusters please replace this setting value
     #more detail can be found at https://github.com/ctripcorp/apollo/wiki
